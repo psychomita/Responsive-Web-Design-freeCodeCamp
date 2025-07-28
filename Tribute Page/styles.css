@@ -1,0 +1,54 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+#main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#img-div {
+  margin: 20px 0;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#img-caption {
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 0.95em;
+}
+
+#tribute-info {
+  margin: 20px 0;
+  text-align: justify;
+  font-size: 1.1em;
+}
+
+#tribute-link {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#tribute-link:hover {
+  text-decoration: underline;
+}

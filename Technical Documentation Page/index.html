@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>C++ Documentation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav id="navbar">
+    <header>C++ Documentation</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#Variables_and_Data_Types">Variables and Data Types</a>
+    <a class="nav-link" href="#Control_Structures">Control Structures</a>
+    <a class="nav-link" href="#Functions">Functions</a>
+    <a class="nav-link" href="#Object_Oriented_Programming">Object Oriented Programming</a>
+  </nav>
+
+  <main id="main-doc">
+
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>C++ is a general-purpose programming language created as an extension of the C language.</p>
+      <p>It supports procedural, object-oriented, and generic programming features.</p>
+      <p>C++ is widely used in system/software development, game engines, and competitive programming.</p>
+      <p>It provides low-level memory manipulation and high-level abstractions.</p>
+      <p>Developed by Bjarne Stroustrup, C++ was released in 1985.</p>
+      <code>#include &lt;iostream&gt;</code>
+      <code>int main() { std::cout &lt;&lt; "Hello, World!"; }</code>
+      <ul>
+        <li>Fast and powerful</li>
+        <li>Supports OOP</li>
+        <li>Compiled language</li>
+        <li>Used in real-time systems</li>
+        <li>Memory management control</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Variables_and_Data_Types">
+      <header>Variables and Data Types</header>
+      <p>Variables store data in memory that can be used and modified throughout a program.</p>
+      <p>Data types define the kind of value a variable can hold: integer, float, char, etc.</p>
+      <p>C++ has both fundamental and derived data types.</p>
+      <p>Variables must be declared before use with a type and an optional initializer.</p>
+      <p>Constants can be defined using the `const` keyword.</p>
+      <code>int age = 25;</code>
+      <code>float score = 89.5;</code>
+      <ul>
+        <li>int</li>
+        <li>float</li>
+        <li>char</li>
+        <li>bool</li>
+        <li>double</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Control_Structures">
+      <header>Control Structures</header>
+      <p>Control structures manage the flow of the program.</p>
+      <p>C++ supports conditional and loop-based control structures.</p>
+      <p>They help in decision-making and repetitive tasks.</p>
+      <p>`if`, `else`, `switch`, `while`, `for`, and `do-while` are key elements.</p>
+      <p>Nested control structures are allowed.</p>
+      <code>if (x &gt; 0) { std::cout &lt;&lt; "Positive"; }</code>
+      <code>for (int i = 0; i &lt; 5; i++) { std::cout &lt;&lt; i; }</code>
+      <ul>
+        <li>if-else</li>
+        <li>switch</li>
+        <li>while</li>
+        <li>do-while</li>
+        <li>for loop</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Functions">
+      <header>Functions</header>
+      <p>Functions are reusable blocks of code that perform a specific task.</p>
+      <p>They help in modularizing the code and improving readability.</p>
+      <p>C++ supports function overloading and recursion.</p>
+      <p>Each function has a return type, name, and parameters.</p>
+      <p>The `main()` function is the entry point of a C++ program.</p>
+      <code>int add(int a, int b) { return a + b; }</code>
+      <code>void greet() { std::cout &lt;&lt; "Hello"; }</code>
+      <ul>
+        <li>Return type</li>
+        <li>Function name</li>
+        <li>Parameters</li>
+        <li>Function body</li>
+        <li>Return statement</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Object_Oriented_Programming">
+      <header>Object Oriented Programming</header>
+      <p>OOP is a paradigm that organizes code using objects and classes.</p>
+      <p>C++ supports all OOP principles: inheritance, polymorphism, encapsulation, and abstraction.</p>
+      <p>Classes are user-defined data types representing real-world entities.</p>
+      <p>Objects are instances of classes.</p>
+      <p>Access specifiers like public, private, and protected control visibility.</p>
+      <code>class Car { public: void drive() { std::cout &lt;&lt; "Driving"; } };</code>
+      <code>Car c1; c1.drive();</code>
+      <ul>
+        <li>Class</li>
+        <li>Object</li>
+        <li>Inheritance</li>
+        <li>Encapsulation</li>
+        <li>Polymorphism</li>
+      </ul>
+    </section>
+
+  </main>
+
+</body>
+</html>
